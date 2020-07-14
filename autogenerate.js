@@ -35,13 +35,13 @@ b.keySize,b.ivSize);l.iv=d.iv;b=a.encrypt.call(this,b,c,d.key,l);b.mixIn(d);retu
 d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j[h>>>8&255]^l[k&255]^c[p++],g=q,h=s,k=t;q=(f[g>>>24]<<24|f[h>>>16&255]<<16|f[k>>>8&255]<<8|f[n&255])^c[p++];s=(f[h>>>24]<<24|f[k>>>16&255]<<16|f[n>>>8&255]<<8|f[g&255])^c[p++];t=(f[k>>>24]<<24|f[n>>>16&255]<<16|f[g>>>8&255]<<8|f[h&255])^c[p++];n=(f[n>>>24]<<24|f[g>>>16&255]<<16|f[h>>>8&255]<<8|f[k&255])^c[p++];a[b]=q;a[b+1]=s;a[b+2]=t;a[b+3]=n},keySize:8});u.AES=p._createHelper(d)})();
 /*
 *
-* Created By Anas RAR
+* Created By Gogonime
 * NihLink v2.6.5
-* Author : Anas RAR
-* Date	 : 10 April 2019
-* URL 	 : anasrar.github.io
-* Repository : https://github.com/anasrar/NihLink-Safelink-Template-Blogger
-* License : https://github.com/anasrar/NihLink-Safelink-Template-Blogger/blob/master/LICENSE
+* Author : Gogonime
+* Date	 : 10 April 2020
+* URL 	 : https://gogoanimelink.blogspot.com/
+* Repository : https://gogoanimelink.blogspot.com/
+* License : https://gogoanimelink.blogspot.com/
 *
 */
 var nihlinkgenerate = function(arr, config){
@@ -56,5 +56,5 @@ var nihlinkgenerate = function(arr, config){
     console.log('NihLink Auto Generate');
 }
 // Example
-// nihlinkgenerate(['anasrar.github.io', 'codepen.io'], {url: 'https://nihlink.blogspot.com', page: 'p/gonow.html', keyit: 'AnasRAR', countdown: true})
+// nihlinkgenerate(['anasrar.github.io', 'codepen.io'], {url: 'https://gogoanimelink.blogspot.com', page: 'p/gonow.html', keyit: 'AnasRAR', countdown: true})
 // ([blacklist domain in array], {config json})
